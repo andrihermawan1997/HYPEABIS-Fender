@@ -92,7 +92,7 @@ Array(
 /**********************************************************
  * @param {9} Login_to_the_Bot
 *********************************************************/
-client.login(config.TOKEN);
+client.login(process.env.TOKEN);
 // require("./keep-alive-server")();
 
 
